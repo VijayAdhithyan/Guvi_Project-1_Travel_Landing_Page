@@ -1078,4 +1078,258 @@
     font-weight: 500;
     line-height: 24px;
   }
+
+  .booking-trip {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 223px;
+  }
+
+  .booking-heading {
+    color: var(--TEXT-CLR, #5e6282);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .booking-desc {
+    color: var(--3rd, #14183e);
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+
+  .left-side-content {
+    flex: 1;
+    margin-left: 41.6px;
+  }
+
+  .right-side-content {
+    flex: 0.8;
+    position: relative;
+    margin-top: 130px;
+  }
+
+  .right-side-content::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: 80px;
+    z-index: -1;
+    width: 420px;
+    height: 430px;
+    flex-shrink: 0;
+    border-radius: 439.807px;
+    opacity: 0.4;
+    background: #4b40c5;
+    filter: blur(99.75911712646484px);
+  }
+
+  .heading {
+    color: var(--TEXT-CLR, #5e6282);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.88px;
+  }
+
+  .desc {
+    color: var(--TEXT-CLR, #5e6282);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.41px;
+  }
+
+  .left-side-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 47px;
+  }
+
+  .left-side-icons {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  .left-side-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  .big-card {
+    width: 430px;
+    height: 490px;
+    flex-shrink: 0;
+    border-radius: 34.583px;
+    background: var(--white, #fff);
+    box-shadow: 0px 2.46319px 4.18742px 0px rgba(0, 0, 0, 0),
+      0px 10.83803px 8.67042px 0px rgba(0, 0, 0, 0.01),
+      0px 26.60243px 17.29158px 0px rgba(0, 0, 0, 0.01),
+      0px 51.23432px 33.89346px 0px rgba(0, 0, 0, 0.01),
+      0px 86.21157px 62.31867px 0px rgba(0, 0, 0, 0.02),
+      0px 133.01216px 106.40972px 0px rgba(0, 0, 0, 0.02);
+    margin-left: 20px;
+  }
+
+  .right-side-cover-img {
+    margin: 22px 24px 0;
+  }
+
+  .rigth-side-heading {
+    color: var(--black, #080809);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.88px;
+    letter-spacing: 0.36px;
+    margin-left: 29px;
+    margin-top: 31px;
+  }
+
+  .timing-info {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 29px;
+    margin-top: 14px;
+  }
+
+  .timing-info > p {
+    color: var(--text-2, #84829a);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.106px;
+  }
+
+  .icons {
+    margin-top: 16px;
+    margin-left: 22px;
+    display: flex;
+    column-gap: 16px;
+  }
+
+  .icon {
+    position: relative;
+  }
+
+  .icon-circle {
+    width: 30.142px;
+    height: 30.142px;
+    flex-shrink: 0;
+    fill: var(--circle, #f5f5f5);
+    z-index: -1;
+  }
+
+  .icon-vector {
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    left: 8px;
+    width: 14.777px;
+    height: 14.777px;
+    flex-shrink: 0;
+  }
+
+  .people {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 24px 29px 0;
+  }
+
+  .people-count {
+    display: flex;
+    column-gap: 17px;
+    color: var(--text-2, #84829a);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%; /* 26.496px */
+    letter-spacing: -0.426px;
+  }
+
+  .small-card {
+    display: flex;
+    column-gap: 20px;
+    z-index: 200;
+    position: absolute;
+    bottom: 98px;
+    left: 216px;
+    width: 260.175px;
+    height: 114.592px;
+    flex-shrink: 0;
+    border-radius: 23.942px;
+    background: var(--white, #fff);
+    box-shadow: 0px 2.46319px 4.18742px 0px rgba(0, 0, 0, 0),
+      0px 10.83803px 8.67042px 0px rgba(0, 0, 0, 0.01),
+      0px 26.60243px 17.29158px 0px rgba(0, 0, 0, 0.01),
+      0px 51.23432px 33.89346px 0px rgba(0, 0, 0, 0.01),
+      0px 86.21157px 62.31867px 0px rgba(0, 0, 0, 0.02),
+      0px 133.01216px 106.40972px 0px rgba(0, 0, 0, 0.02);
+  }
+
+  .small-card > img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+  }
+
+  .sc-desc-1 {
+    color: var(--text-2, #84829a);
+    font-family: Poppins;
+    font-size: 14.622px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.184px;
+    letter-spacing: -0.652px;
+  }
+
+  .sc-desc-2 {
+    color: var(--black, #080809);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.808px;
+    letter-spacing: -0.359px;
+  }
+
+  .sc-desc-3 {
+    color: var(--black, #080809);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.808px;
+    letter-spacing: -0.359px;
+  }
+
+  .sc-desc-3 > span {
+    color: var(--1, #8a79df);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.184px;
+    letter-spacing: -1.024px;
+  }
 }
